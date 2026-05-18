@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
     return
   }
 
-  res.end(`Hello Auto Deploy`)
+  res.end(`Hello ${name}`)
 })
 
 server.listen(3000, () => {
