@@ -9,7 +9,6 @@ const server = http.createServer((req, res) => {
   }
 
   res.end(`Hello Auto`)
-  throw new Error("bad deploy")
 })
 
 server.listen(3000, () => {
