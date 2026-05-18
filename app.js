@@ -9,6 +9,7 @@ const server = http.createServer((req, res) => {
   }
 
   res.end(`Hello ${name}`)
+  res.end(`Hello Auto`)
 })
 
 server.listen(3000, () => {
