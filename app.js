@@ -8,8 +8,11 @@ const server = http.createServer((req, res) => {
     return
   }
 
+<<<<<<< HEAD
   res.end(`Hello ${name}`)
+=======
   res.end(`Hello Auto`)
+>>>>>>> parent of 9b5caea (Update app.js)
 })
 
 server.listen(3000, () => {
