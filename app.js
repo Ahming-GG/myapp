@@ -8,8 +8,8 @@ const server = http.createServer((req, res) => {
     return
   }
 
-  res.end(`Hello Auto Deploy`)
-
+  res.end(`Hello Auto Deploy ${name}`)
+})
 
 server.listen(3000, () => {
   console.log("server running on port 3000")
